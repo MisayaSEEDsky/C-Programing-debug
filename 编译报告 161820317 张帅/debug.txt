@@ -1,0 +1,31 @@
+实验四
+
+1、https://blog.csdn.net/aiwoziji13/article/details/7330333
+undefined reference to
+
+2. passing 'const FlightInfo' as 'this' argument of 'void FlightInfo::setInfo()' discards qualifiers [-fpermissive] 	//const->不能修改
+
+3、[Error] invalid array assignment// char数组之间赋值
+
+4、[Error] field 'st' has incomplete type//	指针或引用
+
+5、[Error] return-statement with a value, in function returning 'void' [-fpermissive]		//重复#include<>
+
+
+实验6 第1题
+/*23	26	[Error] request for member 'x' in 'this', which is of pointer type 'Location* const' (maybe you meant to use '->' ?)
+*/
+
+this 指针  要用 ->
+！！！！！！
+
+实验6 第2题
+20	7[Error] request for member 'getInfo' in 'p', which is of pointer type 'Student*' (maybe you meant to use '->' ?)
+
+
+实验9
+1、在dev项目 中编译 会报错：
+undefined reference to "std::cout"
+在main.cpp中编译可避免报错。
+2、字符串作变量 需要const
+
